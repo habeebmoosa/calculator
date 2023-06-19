@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1e2b37;
+    display: flex;
+    flex-direction: column;
+    gap: 20vh;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mainSection{
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+    padding: 20px;
+    background-color: #2e495c;
+    width: fit-content;
+    border-radius: 15px;
+    gap: 10px;
+}
+
+.controlArea{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 200px;
+    gap: 10px;
+}
+
+.inputArea input{
+    height: 60px;
+    width: 224px;
+    padding: 2px;
+    font-size: 40px;
+    border: none;
+    outline: none;
+}
+
+.btn{
+    width: 50px;
+    height: 50px;
+    background-color: #5d7784;
+    border: none;
+    color: white;
+    font-size: 30px;
+    user-select: none;
+}
+
+.btn:hover{
+    background-color: #4d585e;
+}
+
+.btnc{
+    background-color: #bf1e2d;
+}
+
+.clearArea{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 230px;
+}
+
+.footerSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 230px;
+}
+
+.footerSection p{
+    font-size: 20px;
+    color: #5d7784;
+}
+
+.footerSection a{
+    font-size: 20px;
+    color: #5d7784;
+    text-decoration: none;
+}
+
+.footerSection a:hover{
+    color: #4d585e;
+}
